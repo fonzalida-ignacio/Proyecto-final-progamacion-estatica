@@ -1,0 +1,43 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: url(img/wallreg.jpg);
+  }
+  
+  .container {
+    text-align: center;
+  }
+  
+  .container h1{
+    text-align: center;
+    background-color: rgba(89, 129, 145, 0.195);
+    border-radius: 10%;
+  }
+
+  input[type="text"] {
+    background-color: rgb(149, 170, 192);
+    padding: 8px;
+    margin-bottom: 10px;
+    border-radius: 8%;
+  }
+  
+  
+
+  button {
+    padding: 8px 16px;
+    background-color: #7090b4;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    border-radius: 8%;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+  

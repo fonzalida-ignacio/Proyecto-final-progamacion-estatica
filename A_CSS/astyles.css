@@ -1,0 +1,231 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+}
+
+body{
+    text-align: center;
+    font-family: sans-serif;
+}
+
+.head{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 63px;
+    background: black;
+    position: fixed;
+    width: 100%;
+    z-index: 100;
+}
+
+.navbar{
+    display: flex;
+    margin-right: 10px;
+
+}
+
+.logo{
+    margin-left: 30px;
+}
+
+.logo a{
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+    font-size: 20px;
+}
+
+.modded {
+    font-size:80px;
+    color:white;
+    text-shadow: 1px  1px 3px black,
+                 3px  1px 2px black,
+                -1px  0px 1px black,
+                 0px -1.5px 0px black;
+}
+
+.navbar a{
+    display: block;
+    padding: 23px 20px;
+    color: rgb(224, 235, 233);
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 20px;
+}
+
+.navbar a:hover{
+    background: rgba(62, 63, 63, 0.356);
+}
+
+.header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header{
+    height: 90vh !important;
+    background: black;
+    background-size: cover;
+    background-image: url("img/header.jpg");
+    margin-bottom: 2px
+}
+
+.title{
+    margin-bottom: 40px;
+    font-size: 60px;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: whitesmoke;
+}
+
+p{
+    margin-bottom: 40px;
+    font-size: 18px;
+    color: white;
+    padding: 0 100px;
+}
+
+.btn{
+    display: inline-block;
+    margin-top: 15px;
+    padding: 10px 40px;
+    border: 2px solid rgb(255, 255, 255);
+    color: rgb(234, 242, 243);
+    text-decoration: none;
+    background: rgb(0, 0, 0);
+}
+
+.btn:hover{
+    background: rgb(75, 75, 75);
+
+}
+
+.btn-home{
+    display: flex;
+}
+
+.btn-home a{
+    margin: 0 10px;
+}
+
+.content{
+    height: 75vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.sau{
+    padding: 100px;
+    background: black;
+}
+
+.box-container{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    text-align: center;
+}
+
+.box-container .box{
+    height: 11rem;
+    width: 17rem;
+    background: black;
+    text-align: center;
+    border-radius: 1rem;
+    box-shadow: 0 .3 5rem rgba(0,0,0, .5);
+    margin: 2rem;
+}
+
+.box-container .box i{
+    height: 3rem;
+    width: 3rem;
+    line-height: 3rem;
+    text-align: center;
+    border-radius: 50%;
+    color: aliceblue;
+    background: purple;
+    font-size: 2rem;
+    margin: 1rem 0;
+}
+
+.box-container .box h3{
+    text-decoration: none;
+    font-size: 20px;
+    color: blueviolet;
+}
+
+.box-container .box a{
+    text-decoration: none;
+}
+
+.box-container .box p{
+    padding: 0 15px;
+    font-size: 16px;
+}
+
+.about{
+    height: 380px;
+    margin-top: 3px;
+    background: black;
+}
+
+.faq {
+    margin-top: 3px;
+    background: rgb(0, 0, 0);  
+    background-attachment: fixed;
+    background-size: cover;
+    text-align: center;
+}
+
+.contact {
+    margin-top: 3px;
+    background: rgb(0, 0, 0);  
+    background-attachment: fixed;
+    background-size: cover;
+    text-align: center;
+}
+
+.instagram {
+    text-align: center;
+    font-size: 28px;
+}
+
+.contain{
+    padding-top: 20px ;
+    background: black;
+    padding-bottom: 0;
+}
+
+@media (max-width: 768px) {
+    
+    .title{
+        margin-bottom: 0;
+        font-size: 40px;
+    }
+
+    .sau{
+        height: 120vh;
+    }
+
+    .navbar{
+        display: none;
+    }
+}
+
+.separate {
+    margin-left: 450px;
+}
+
+.showuser{
+    padding-top: 35px;
+    display: flex;
+    font-size: 20px;
+}
+

@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="faqnew.css">
+</head>
+<body>
+
+<div class="container">
+
+    <h1 class="heading">Preguntas frecuentes</h1>
+
+    <div class="accordion-container">
+
+        <div class="accordion active">
+            <div class="accordion-heading">
+                <h3>¿De donde fue extraida información?</h3>
+                <i class="fas fa-angle-down"></i>
+            </div>
+            <p class="accordion-content">
+                La información esta basada en una recopilacion de entrevistas de los artistas, foros y distintas paginas web.
+            </p>
+        </div>
+
+        <div class="accordion">
+            <div class="accordion-heading">
+                <h3>¿Porque son solo 3 artistas?</h3>
+                <i class="fas fa-angle-down"></i>
+            </div>
+            <p class="accordion-content">
+                Esta pagina fue hecha segun 3 artistas a eleccion de cada uno de los desarrolladores. Tiene poca variedad de artistas debido a que fue pensada para ser un proyecto escolar en el cual los desarrolladores disponemos de poco tiempo.
+            </p>
+        </div>
+
+        <div class="accordion">
+            <div class="accordion-heading">
+                <h3>¿Esta pagina recibe actializaciones?</h3>
+                <i class="fas fa-angle-down"></i>
+            </div>
+            <p class="accordion-content">
+                Tenemos la finalidad de nunca jamas tocar Visual Studio Code... pero lastimosamente no podemos, asi que quiza reciba actualizaciones.
+            </p>
+        </div>
+
+        <div class="accordion">
+            <div class="accordion-heading">
+                <h3>¿Ninguna de las preguntas te ayudó?</h3>
+                <i class="fas fa-angle-down"></i>
+            </div>
+            <p class="accordion-content">
+                Si nuestras preguntas fueron insuficientes, envíenos sus preguntas por instagram y con disgusto las responderemos.
+            </p>
+        </div>
+
+        <div class="accordion">
+            <div class="accordion-heading">
+                <h3>¿Como puedo ver mas información sobre otros artistas?</h3>
+                <i class="fas fa-angle-down"></i>
+            </div>
+            <p class="accordion-content">
+                Si el usuario desea conocer mas artistas musicales, le dejamos este link:   <a href="https://www.radionica.rocks/musica/musica-internacional/estos-son-los-10-mejores-artistas-de-todos-los-tiempos-segun-billboard">Radionica</a>
+            </p>
+        </div>
+    </div>
+
+</div>
+
+
+<script>
+
+let accordions = document.querySelectorAll('.accordion-container .accordion');
+
+accordions.forEach(acco =>{
+    acco.onclick = () =>{
+        accordions.forEach(subAcco => { subAcco.classList.remove('active') });
+        acco.classList.add('active');
+    }
+})
+
+</script>
+
+    
+</body>
+</html>
